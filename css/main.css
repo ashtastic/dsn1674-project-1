@@ -1,7 +1,7 @@
 h1 {
 	color: #b32f52;
 	font-family:'Sigmar One', cursive;
-	font-size: 4em;
+	font-size: 3em;
 	text-align: center;
 	background-color: #ffe524;
 	display: block;
@@ -10,29 +10,45 @@ h1 {
 }
 
 nav {
-	display: block;
 	background-color: #ffe524;
 	text-align: center;
-	padding: 1px;
 }
 
 nav ol {
-	list-style-type: none;
-	text-align: center;
+	padding: 0;
+	margin: 0;
 }
 
 nav li {
-	display: inline;
-	margin-left: auto;
-	margin-right: auto;
+	display: inline-block;
+	padding: 1em 0;
 }
 
 nav a {
-	display: inline block;
-	padding: 0.5em 0.75em;
+	display: inline;
+	width: 6em;
+	padding: 0.5em;
+	text-decoration: none;
 	color: white;
 	font-family: 'Georgia', serif;
-	text-decoration: none;
+	font-size: 1em;
 	background-color: #b2a215;
-	border-radius: 8px;
+	border-radius: 4px;
 }
+
+body {
+	font-family: 'Georgia', serif;
+	text-align: left;
+}
+
+b {
+	font-style: none;
+}
+
+h2 {
+	font-family: 'Sigmar One', cursive;
+	font-size: 2em;
+	color: #b32f52;
+}
+
+
