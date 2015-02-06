@@ -1,6 +1,7 @@
 h1 {
 	color: #b32f52;
 	font-family:'Sigmar One', cursive;
+	font-size: 4em;
 	text-align: center;
 	background-color: #ffe524;
 	display: block;
@@ -10,4 +11,28 @@ h1 {
 
 nav {
 	display: block;
+	background-color: #ffe524;
+	text-align: center;
+	padding: 1px;
+}
+
+nav ol {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav a {
+	display: inline block;
+	padding: 0.5em 0.75em;
+	color: white;
+	font-family: 'Georgia', serif;
+	text-decoration: none;
+	background-color: #b2a215;
+	border-radius: 8px;
 }
