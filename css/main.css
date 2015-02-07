@@ -56,6 +56,10 @@ body em {
 	font-style: normal;
 }
 
+/*
+Quotation marks
+*/
+
 blockquote {
 	display: block;
 	padding: 0 0 1.8em 0;
@@ -115,9 +119,11 @@ h3 {
 	margin: 0;
 }
 
+/*
 h3 p {
 	font-style: italic;
 }
+*/
 
 dl {
 	line-height: 1.3;
